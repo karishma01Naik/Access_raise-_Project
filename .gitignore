@@ -1,0 +1,12 @@
+.claude/
+.superpowers/
+__pycache__/
+*.pyc
+.pytest_cache/
+/.venv/
+
+# Local per-operator run data (real recipients/justifications, run reports) -
+# never committed; samples/ holds the placeholder examples instead.
+/local/
+/report*.csv
+/retry*.json
